@@ -3,7 +3,7 @@ output "azs" {
 }
 
 output "vpc_id" {
-    value = aws_vpc.id
+    value = aws_vpc.main.id
 }
 
 output "public_subnet_id" {
